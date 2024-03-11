@@ -33,7 +33,7 @@ def generate_random_story():
 def main():
 
     wish()
-    sg.theme('DarkRed2')
+    sg.theme('Darkgreen')
 
     layout = [
         [sg.Text("Random Story Generator", size=(30, 1), font=("Matura MT Script Capitals", 30), justification='center', relief=sg.RELIEF_RIDGE)],
